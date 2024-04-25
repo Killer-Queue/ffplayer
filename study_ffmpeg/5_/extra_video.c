@@ -46,11 +46,11 @@ int main(int argc, char* argv[])
     oFmtCtx->oformat = outFmt;
     
 
-    // 5.创建一个新的音频流
+    // 5.创建一个新的视频流
     AVStream *outStream = avformat_new_stream(oFmtCtx, NULL);
 
 
-    // 6.设置输出音频参数
+    // 6.设置输出视频参数
 
     AVStream *inStream = pFmtCtx->streams[idx];
     avcodec_parameters_copy(outStream->codecpar, inStream->codecpar);

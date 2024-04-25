@@ -9,6 +9,7 @@
                 "${file}",//指定编译文件为当前文件
                 "-o",//指定输出文件的路径和名称
                 "${fileDirname}/${fileBasenameNoExtension}",//修改.exe文件生成位置
+                "-lm",
                 "-I/usr/local/ffmpeg/include",
                 "-L/usr/local/ffmpeg/lib",
                 "-lavutil",
