@@ -9,7 +9,7 @@
             "name": "(gdb) 启动",//配置名称
             "type": "cppdbg",//配置类型,对应cpptools提供的调试功能
             "request": "launch",//请求配置类型,可以是启动/附加类型[launch/attach]
-            "program": "${workspaceFolder}/study_ffmpeg/6_/${fileBasenameNoExtension}",//待调试程序本地路径
+            "program": "${workspaceFolder}/study_ffmpeg/7_/${fileBasenameNoExtension}",//待调试程序本地路径
             "args": [//程序调试时传递给程序的命令行参数,设为空值
                 "build_avdio.h264",
                 "libx264"
